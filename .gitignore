@@ -1,0 +1,10 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+/build
+.idea
+/idea
+/idea/workspace.xml
+/.idea/
+node_modules
+.DS_Store
+Icon
