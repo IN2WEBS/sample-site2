@@ -81,14 +81,34 @@
                 </div>
             </div>
         </section>
-        <section class="sidebar">
+        <aside class="sidebar">
             <h3>Aenean ac diam
                 nec neque fringilla</h3>
-            <p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean
+            <p class="side-text">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a
+                interdum justo. Aenean
                 ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada
                 mollis ligula at varius.</p>
-            <div class="contact-form">SUBMIT FORM</div>
-        </section>
+            <form class="contact-form" method="POST" action="#" onsubmit="return Validate()" name="contact-form">
+                <div id="firstname_div">
+                    <label>First name:</label>
+                    <input type="text" name="firstname" class="" placeholder="Enter your first name">
+                    <span id="firstname_error"></span>
+                </div>
+                <div id="lastname_div">
+                    <label>Last name:</label>
+                    <input type="text" name="lastname" class="" placeholder="Enter your last name">
+                    <span id="lastname_error"></span>
+                </div>
+                <div id="message_div">
+                    <label>Message:</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    <span id="message_error"></span>
+                </div>
+                <div>
+                    <button type="submit" name="register" value="Register" class="btn-form-submit">Submit</button>
+                </div>
+            </form>
+        </aside>
     </div>
     <section id="pre-footer">
         <p>Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac

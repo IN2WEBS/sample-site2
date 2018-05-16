@@ -59,25 +59,62 @@ body {
         }
       }
       .sidebar {
+        text-align: left;
         width: 35%;
         h3 {
-          border-bottom: 3px solid black;
           padding-bottom: 10px;
           color: #000000;
           font-family: "Times New Roman";
           font-size: 24px;
           font-weight: 700;
-          text-align: left;
+          width: 70%;
         }
-        p {
+        .side-text {
+          border-top: 3px solid black;
           padding-top: 10px;
+          margin-bottom: 30px;
           color: #4d4d4d;
           font-size: 14px;
           line-height: 20px;
-          text-align: justify;
         }
         .contact-form {
-          border: 1px solid #000;
+          border: 1px solid #898989;
+          padding: 20px;
+          input {
+            width: 100%;
+            height: 31px;
+            border: 1px solid #898989;
+            font-size: 14px;
+            font-weight: 400;
+            text-indent: 10px;
+            margin-bottom: 20px;
+            margin-top: 9px;
+            ::-webkit-input-placeholder,
+            ::-moz-placeholder,
+            :-ms-input-placeholder,
+            :-moz-placeholder
+            {
+              color: #929292;
+            }
+          }
+          textarea {
+            width: 100%;
+            font-size: 14px;
+            font-weight: 400;
+            text-indent: 10px;
+            margin-bottom: 20px;
+            margin-top: 9px;
+          }
+
+          .btn-form-submit {
+            background-color: #d3135a;
+            color: #fefefe;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: 13px 26px;
+            border: none;
+          }
         }
       }
     }
@@ -88,8 +125,9 @@ body {
       p {
         color: #4d4d4d;
         font-size: 14px;
-        padding: 10px;
+        padding: 20px;
         line-height: 20px;
+        text-align: left;
       }
     }
   }
