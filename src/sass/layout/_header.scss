@@ -1,11 +1,10 @@
 header {
-  min-height: 117px;
+  min-height: $header-hight;
   background: #d3135a;
-  padding: 26px 70px 26px 70px;
   .secondary-nav {
     display: flex;
     justify-content: flex-end;
-    min-height: 55px;
+    padding: 26px 70px 0px 70px;
     ul {
       display: flex;
       li a {
@@ -17,6 +16,7 @@ header {
   .header-bar {
     display: flex;
     justify-content: space-between;
+    padding: 0px 70px 10px 70px;
     .site-title {
       color: #ffc2dd;
       font-size: 60px;
