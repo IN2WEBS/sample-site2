@@ -1,3 +1,14 @@
+// Mobile navigation bar
+function openMobileMenu() {
+    var x = document.getElementById("main-nav");
+    if (x.className === "primary-nav") {
+        x.className += " responsive-menu";
+    } else {
+        x.className = "primary-nav";
+    }
+}
+
+// Contact Form validation
 var firstname = document.forms['contact-form']['firstname'];
 var lastname = document.forms['contact-form']['lastname'];
 var message = document.forms['contact-form']['message'];
@@ -56,3 +67,4 @@ function messageVerify() {
         return true;
     }
 }
+

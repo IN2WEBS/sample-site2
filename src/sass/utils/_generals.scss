@@ -5,19 +5,14 @@ body {
     font-weight:400;
     background: #fff;
 }
-
 .clearfix:after {
     content: '';
     display: table;
     clear: both;
 }
-.container{
-
-}
 input{
     outline:none
 }
-
 .flex {
     display: flex;
 }

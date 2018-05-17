@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header id="header">
@@ -19,7 +20,7 @@
     </nav>
     <div class="header-bar">
         <div class="site-title"><a href="index.html">The Site</a></div>
-        <nav class="primary-nav">
+        <nav id="main-nav" class="primary-nav">
             <ul>
                 <div class="dropdown">
                     <li class="dropbtn"><a href="#">menu link</a></li>
@@ -35,6 +36,7 @@
                 <li><a href="pages/second.html">menu link</a></li>
                 <li><a href="pages/second.html">menu link</a></li>
             </ul>
+            <a class="icon-burger" onclick="openMobileMenu()"><i class="fa fa-bars"></i></a>
         </nav>
     </div>
 </header>
@@ -88,7 +90,7 @@
                 interdum justo. Aenean
                 ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada
                 mollis ligula at varius.</p>
-            <form class="contact-form" method="POST" action="#" onsubmit="return Validate()" name="contact-form">
+            <form class="contact-form" method="POST" action="pages/second.html" onsubmit="return Validate()" name="contact-form">
                 <div id="firstname_div">
                     <label>First name:</label>
                     <input type="text" name="firstname" class="" placeholder="Enter your first name">
