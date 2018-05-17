@@ -21,7 +21,7 @@ firstname.addEventListener('blur', firstnameVerify, true);
 lastname.addEventListener('blur', lastnameVerify, true);
 message.addEventListener('blur', messageVerify, true);
 
-function Validate() {
+function ContactValidation() {
     if (firstname.value === "") {
         firstname.style.border = "1px solid red";
         document.getElementById('firstname_div').style.color = "red";

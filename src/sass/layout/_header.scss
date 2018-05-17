@@ -1,6 +1,6 @@
 header {
   min-height: $header-hight;
-  background: #d3135a;
+  background: $global-color;
   .secondary-nav {
     display: flex;
     justify-content: flex-end;

@@ -1,10 +1,10 @@
 // Mobile navigation bar
 function openMobileMenu() {
-    var x = document.getElementById("main-nav");
-    if (x.className === "primary-nav") {
-        x.className += " responsive-menu";
+    var toggleMenu = document.getElementById("main-nav");
+    if (toggleMenu.className === "primary-nav") {
+        toggleMenu.className += " responsive-menu";
     } else {
-        x.className = "primary-nav";
+        toggleMenu.className = "primary-nav";
     }
 }
 
@@ -21,7 +21,7 @@ firstname.addEventListener('blur', firstnameVerify, true);
 lastname.addEventListener('blur', lastnameVerify, true);
 message.addEventListener('blur', messageVerify, true);
 
-function Validate() {
+function ContactValidation() {
     if (firstname.value === "") {
         firstname.style.border = "1px solid red";
         document.getElementById('firstname_div').style.color = "red";
