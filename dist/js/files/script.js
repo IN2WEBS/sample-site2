@@ -1,10 +1,10 @@
 // Mobile navigation bar
 function openMobileMenu() {
-    var x = document.getElementById("main-nav");
-    if (x.className === "primary-nav") {
-        x.className += " responsive-menu";
+    var toggleMenu = document.getElementById("main-nav");
+    if (toggleMenu.className === "primary-nav") {
+        toggleMenu.className += " responsive-menu";
     } else {
-        x.className = "primary-nav";
+        toggleMenu.className = "primary-nav";
     }
 }
 
